@@ -115,6 +115,85 @@ const modalBody = document.getElementById("modal-body");
 const modalClose = document.querySelector(".modal-close");
 
 const projectContent = {
+  "project-mashreq": `
+    <h3>Mashreq Bank </h3>
+    <p>
+      <strong>Jun 2026 – Present</strong> · Associated with Systems Limited
+    </p>
+    <p>
+      Currently working as an External Consultant at Mashreq Bank through
+      Systems Limited, contributing to backend development for the bank's Bill
+      Payment domain using Java and Spring Boot.
+    </p>
+    <ul>
+      <li>
+        Develop and maintain backend components for bill payment services,
+        ensuring reliable and secure transaction processing.
+      </li>
+      <li>
+        Implement change requests, fix application defects, and support
+        production issues as part of regular release cycles.
+      </li>
+      <li>
+        Develop and enhance REST APIs while following the bank's coding
+        standards and development practices.
+      </li>
+      <li>
+        Collaborate with business analysts, QA engineers, and other development
+        teams to deliver new features and production fixes.
+      </li>
+      <li>
+        Participate in code reviews, testing, and troubleshooting activities to
+        maintain application stability and service quality.
+      </li>
+      <li>
+        Work within an Agile delivery environment, contributing to sprint
+        planning, estimations, and feature implementation.
+      </li>
+    </ul>
+    <p>
+      Skills: Java, Spring Boot, MSSQL, Microservices, Azure DevOps
+    </p>
+  `,
+  "project-moj-uae": `
+    <h3>Ministry of Justice - UAE</h3>
+    <p>
+      <strong>Mar 2026 – May 2026</strong> · Associated with Systems Limited
+    </p>
+    <p>
+      Worked as an External Consultant through Systems Limited on the Ministry
+      of Justice UAE engagement, introduced to enterprise integration using IBM
+      webMethods and large-scale middleware solutions.
+    </p>
+    <ul>
+      <li>
+        Explored IBM webMethods Integration Server and Flow Language to
+        understand how enterprise services and integrations are developed and
+        managed.
+      </li>
+      <li>
+        Studied existing integration flows, packages, and service configurations
+        to understand communication between internal and external government
+        systems.
+      </li>
+      <li>
+        Learned the deployment lifecycle, package management, and middleware
+        architecture used in an enterprise environment.
+      </li>
+      <li>
+        Worked alongside experienced integration engineers to understand
+        integration standards, debugging approaches, and service orchestration.
+      </li>
+      <li>
+        Built a strong understanding of enterprise integration concepts,
+        middleware infrastructure, and API-based communication.
+      </li>
+    </ul>
+    <p>
+      Skills: webMethods, webMethods Integration Server, Flow Language, Java,
+      Spring Boot
+    </p>
+  `,
   "project-sphf": `
     <h3>SPHF — Sindh Peoples Housing for Flood Affected</h3>
     <p>

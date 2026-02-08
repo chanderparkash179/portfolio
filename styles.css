@@ -1072,6 +1072,24 @@ a {
   cursor: pointer;
 }
 
+#modal-body {
+  max-height: min(70vh, 640px);
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+#modal-body ul {
+  margin: 0.75rem 0 1rem;
+  padding-left: 1.25rem;
+  display: grid;
+  gap: 0.55rem;
+  color: var(--text-secondary);
+}
+
+#modal-body li {
+  line-height: 1.55;
+}
+
 #cursor-glow {
   position: fixed;
   width: 280px;
