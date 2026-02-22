@@ -7,17 +7,15 @@ yarn-error.log*
 firebase-debug.log*
 firebase-debug.*.log*
 
-# Firebase cache and config
+# Firebase cache
 .firebase/
-.firebaserc   # Optional: Uncomment if each dev should use their own Firebase project
-.firebase/**
 
-# Firebase emulators (optional, if using)
-firebase.json
-firestore.indexes.json
-firestore.rules
-storage.rules
-emulator-ui-debug.log*
+# Firebase config
+
+# Uncomment this if you'd like others to create their own Firebase project.
+# For a team working on the same Firebase project(s), it is recommended to leave
+# it commented so all members can deploy to the same project(s) in .firebaserc.
+# .firebaserc
 
 # Runtime data
 pids
@@ -30,18 +28,20 @@ lib-cov
 
 # Coverage directory used by tools like istanbul
 coverage
+
+# nyc test coverage
 .nyc_output
 
-# Grunt intermediate storage
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
-# Bower dependency directory
+# Bower dependency directory (https://bower.io/)
 bower_components
 
 # node-waf configuration
 .lock-wscript
 
-# Compiled binary addons
+# Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
 # Dependency directories

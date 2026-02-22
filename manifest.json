@@ -1,0 +1,16 @@
+{
+  "name": "Chander Parkash Portfolio",
+  "short_name": "Chander Parkash",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A0F1E",
+  "theme_color": "#0EA5E9",
+  "description": "Java Full-Stack Engineer specializing in cloud-native and AI-powered systems.",
+  "icons": [
+    {
+      "src": "assets/profile-picture.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
