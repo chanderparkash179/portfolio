@@ -61,6 +61,7 @@
       rel="stylesheet"
     />
     <link rel="preload" as="image" href="assets/profile-picture.png" />
+    <link rel="preload" as="image" href="assets/logo.png" />
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
     <link rel="stylesheet" href="styles.css" />
     <!-- LinkedIn PDF not found in repo; used provided data instead. -->
@@ -72,7 +73,7 @@
     <header class="nav-wrap">
       <nav class="nav">
         <a class="logo" href="#home" aria-label="Chander Parkash">
-          <span>CP</span>
+          <img src="assets/logo.png" alt="Chander Parkash" width="140" height="36" />
         </a>
         <button class="nav-toggle" aria-label="Open navigation">
           <span></span>
@@ -101,6 +102,9 @@
         </div>
       </nav>
       <div class="mobile-drawer">
+        <a href="#home" class="mobile-drawer-logo" aria-label="Chander Parkash">
+          <img src="assets/logo.png" alt="Chander Parkash" />
+        </a>
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#journey">Journey</a>
@@ -1155,7 +1159,9 @@
     <footer class="footer">
       <div class="footer-grid">
         <div>
-          <h3>Chander Parkash</h3>
+          <a href="#home" class="footer-logo" aria-label="Chander Parkash">
+            <img src="assets/logo.png" alt="Chander Parkash" />
+          </a>
           <p>Built with intention by Chander Parkash.</p>
         </div>
         <div class="footer-links">
